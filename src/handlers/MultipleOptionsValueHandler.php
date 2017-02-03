@@ -3,13 +3,13 @@
  * @author Alexey Samoylov <alexey.samoylov@gmail.com>
  */
 
-namespace mirocow\eav\handlers;
+namespace nighthtr\eav\handlers;
 
 use yii\db\ActiveRecord;
 
 /**
  * Class MultipleOptionsValueHandler
- * @package mirocow\eav
+ * @package nighthtr\eav
  */
 class MultipleOptionsValueHandler extends ValueHandler
 {

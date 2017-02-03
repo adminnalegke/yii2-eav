@@ -3,10 +3,10 @@
  * @author Alexey Samoylov <alexey.samoylov@gmail.com>
  */
 
-namespace mirocow\eav\widgets;
+namespace nighthtr\eav\widgets;
 
-use mirocow\eav\EavModel;
-use mirocow\eav\handlers\ValueHandler;
+use nighthtr\eav\EavModel;
+use nighthtr\eav\handlers\ValueHandler;
 use Yii;
 use yii\base\InvalidParamException;
 use yii\base\Widget;
@@ -14,18 +14,18 @@ use yii\db\ActiveRecord;
 
 /**
  * Class AttributeHandler
- * @package mirocow\eav
+ * @package nighthtr\eav
  */
 class AttributeHandler extends Widget
 {
-    const VALUE_HANDLER_CLASS = '\mirocow\eav\handlers\RawValueHandler';
-    
+    const VALUE_HANDLER_CLASS = '\nighthtr\eav\handlers\RawValueHandler';
+
     /** @var EavModel */
     public $owner;
-    
+
     /** @var ValueHandler */
     public $valueHandler;
-    
+
     /** @var ActiveRecord */
     public $attributeModel;
 

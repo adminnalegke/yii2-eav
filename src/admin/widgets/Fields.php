@@ -1,8 +1,8 @@
 <?php
 
-namespace mirocow\eav\admin\widgets;
+namespace nighthtr\eav\admin\widgets;
 
-use mirocow\eav\models\EavAttribute;
+use nighthtr\eav\models\EavAttribute;
 use Yii;
 use yii\base\Widget;
 use yii\helpers\ArrayHelper;

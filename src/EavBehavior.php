@@ -3,16 +3,16 @@
  * @author Alexey Samoylov <alexey.samoylov@gmail.com>
  */
 
-namespace mirocow\eav;
+namespace nighthtr\eav;
 
-use mirocow\eav\models\EavAttribute;
+use nighthtr\eav\models\EavAttribute;
 use yii\base\Behavior;
 use yii\base\Exception;
 use yii\db\ActiveRecord;
 
 /**
  * Class EavBehavior
- * @package mirocow\eav
+ * @package nighthtr\eav
  *
  * @mixin ActiveRecord
  * @property EavModel $eav;

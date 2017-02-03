@@ -3,9 +3,9 @@
  * @author Alexey Samoylov <alexey.samoylov@gmail.com>
  */
 
-namespace mirocow\eav\widgets;
+namespace nighthtr\eav\widgets;
 
-use mirocow\eav\widgets\AttributeHandler;
+use nighthtr\eav\widgets\AttributeHandler;
 use Yii;
 
 class NumericInput extends AttributeHandler

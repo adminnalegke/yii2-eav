@@ -1,8 +1,8 @@
 <?php
 
-namespace mirocow\eav\models;
+namespace nighthtr\eav\models;
 
-use mirocow\eav\models\Eav;
+use nighthtr\eav\models\Eav;
 use Yii;
 
 /**

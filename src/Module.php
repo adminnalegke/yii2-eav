@@ -1,11 +1,11 @@
 <?php
 
-namespace mirocow\eav;
+namespace nighthtr\eav;
 use Yii;
 
 class Module extends \yii\base\Module
 {
-    public $controllerNamespace = 'mirocow\eav\controllers';
+    public $controllerNamespace = 'nighthtr\eav\controllers';
 
     public $defaultRoute = 'default';
 
@@ -13,7 +13,7 @@ class Module extends \yii\base\Module
     {
         parent::init();
 
-        $this->setModule('admin', 'mirocow\eav\admin\Module');
+        $this->setModule('admin', 'nighthtr\eav\admin\Module');
         $this->registerTranslations();
     }
 
@@ -27,13 +27,13 @@ class Module extends \yii\base\Module
         }
 
     }
-    
+
     public function registerTranslations()
         {
-            Yii::$app->i18n->translations['eav'] = 
+            Yii::$app->i18n->translations['eav'] =
             [
                 'class' => 'yii\i18n\PhpMessageSource',
-                'basePath' => "@mirocow/eav/messages",
+                'basePath' => "@nighthtr/eav/messages",
                 'forceTranslation' => true
             ];
         }

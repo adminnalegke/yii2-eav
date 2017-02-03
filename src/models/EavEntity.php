@@ -1,6 +1,6 @@
 <?php
 
-namespace mirocow\eav\models;
+namespace nighthtr\eav\models;
 
 use Yii;
 

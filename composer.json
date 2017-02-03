@@ -1,5 +1,5 @@
 {
-	"name": "mirocow/yii2-eav",
+	"name": "nighthtr/yii2-eav",
 	"description": "EAV for Yii2",
 	"license": "MIT",
 	"keywords": [
@@ -27,6 +27,12 @@
 			"email": "mr.mirocow@gmail.com",
 			"homepage": "http://mirocow.com",
 			"role": "Developer"
+		},
+		{
+			"name": "nighthtr",
+			"email": "nighthtr@gmail.com",
+			"homepage": "http://nighthtr.ru",
+			"role": "Developer"
 		}
 	],
 	"minimum-stability": "dev",
@@ -36,7 +42,7 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"mirocow\\eav\\": "./src"
+			"nighthtr\\eav\\": "./src"
 		}
 	}
 }
