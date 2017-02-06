@@ -3,10 +3,10 @@
  * @author Alexey Samoylov <alexey.samoylov@gmail.com>
  */
 
-namespace nighthtr\eav\widgets;
+namespace adminnalegke\eav\widgets;
 
-use nighthtr\eav\EavModel;
-use nighthtr\eav\handlers\ValueHandler;
+use adminnalegke\eav\EavModel;
+use adminnalegke\eav\handlers\ValueHandler;
 use Yii;
 use yii\base\InvalidParamException;
 use yii\base\Widget;
@@ -14,11 +14,11 @@ use yii\db\ActiveRecord;
 
 /**
  * Class AttributeHandler
- * @package nighthtr\eav
+ * @package adminnalegke\eav
  */
 class AttributeHandler extends Widget
 {
-    const VALUE_HANDLER_CLASS = '\nighthtr\eav\handlers\RawValueHandler';
+    const VALUE_HANDLER_CLASS = '\adminnalegke\eav\handlers\RawValueHandler';
 
     /** @var EavModel */
     public $owner;

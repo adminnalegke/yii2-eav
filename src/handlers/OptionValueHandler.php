@@ -3,11 +3,11 @@
  * @author Alexey Samoylov <alexey.samoylov@gmail.com>
  */
 
-namespace nighthtr\eav\handlers;
+namespace adminnalegke\eav\handlers;
 
 /**
  * Class OptionValueHandler
- * @package nighthtr\eav
+ * @package adminnalegke\eav
  */
 class OptionValueHandler extends ValueHandler
 {

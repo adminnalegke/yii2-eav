@@ -5,7 +5,7 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace nighthtr\eav\admin\assets;
+namespace adminnalegke\eav\admin\assets;
 
 use Yii;
 use yii\web\AssetBundle;
@@ -17,9 +17,9 @@ use yii\web\AssetBundle;
 class FbAsset extends AssetBundle
 {
 
-    //public $basePath = '@nighthtr/eav/admin/assets/formbuilder';
+    //public $basePath = '@adminnalegke/eav/admin/assets/formbuilder';
     public $baseUrl = '@web';
-    public $sourcePath = '@nighthtr/eav/admin/assets/formbuilder';
+    public $sourcePath = '@adminnalegke/eav/admin/assets/formbuilder';
     public $css = [
         'css/vendor.css',
         'css/formbuilder.css',

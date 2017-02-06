@@ -1,5 +1,5 @@
 <?php
-use nighthtr\eav\handlers\ValueHandler;
+use adminnalegke\eav\handlers\ValueHandler;
 use yii\db\Migration;
 
 class m150821_133232_init extends Migration
@@ -22,32 +22,32 @@ class m150821_133232_init extends Migration
             [
                 'name' => 'text',
                 'storeType' => ValueHandler::STORE_TYPE_RAW,
-                'handlerClass' => '\nighthtr\eav\widgets\TextInput',
+                'handlerClass' => '\adminnalegke\eav\widgets\TextInput',
             ],
             [
                 'name' => 'option',
                 'storeType' => ValueHandler::STORE_TYPE_OPTION,
-                'handlerClass' => '\nighthtr\eav\widgets\DropDownList',
+                'handlerClass' => '\adminnalegke\eav\widgets\DropDownList',
             ],
             [
                 'name' => 'checkbox',
                 'storeType' => ValueHandler::STORE_TYPE_MULTIPLE_OPTIONS,
-                'handlerClass' => '\nighthtr\eav\widgets\CheckBoxList',
+                'handlerClass' => '\adminnalegke\eav\widgets\CheckBoxList',
             ],
             [
                 'name' => 'array',
                 'storeType' => ValueHandler::STORE_TYPE_ARRAY,
-                'handlerClass' => '\nighthtr\eav\widgets\EncodedTextInput',
+                'handlerClass' => '\adminnalegke\eav\widgets\EncodedTextInput',
             ],
             [
                 'name' => 'radio',
                 'storeType' => ValueHandler::STORE_TYPE_OPTION,
-                'handlerClass' => '\nighthtr\eav\widgets\RadioList',
+                'handlerClass' => '\adminnalegke\eav\widgets\RadioList',
             ],
             [
                 'name' => 'area',
                 'storeType' => ValueHandler::STORE_TYPE_RAW,
-                'handlerClass' => '\nighthtr\eav\widgets\Textarea',
+                'handlerClass' => '\adminnalegke\eav\widgets\Textarea',
             ],
         ];
     }

@@ -1,13 +1,13 @@
 <?php
 
-namespace nighthtr\eav\admin\controllers;
+namespace adminnalegke\eav\admin\controllers;
 
-use nighthtr\eav\models\EavAttribute;
-use nighthtr\eav\models\EavAttributeOption;
-use nighthtr\eav\models\EavAttributeRule;
-use nighthtr\eav\models\EavAttributeType;
-use nighthtr\eav\models\EavAttributeValue;
-use nighthtr\eav\models\EavEntity;
+use adminnalegke\eav\models\EavAttribute;
+use adminnalegke\eav\models\EavAttributeOption;
+use adminnalegke\eav\models\EavAttributeRule;
+use adminnalegke\eav\models\EavAttributeType;
+use adminnalegke\eav\models\EavAttributeValue;
+use adminnalegke\eav\models\EavEntity;
 use Yii;
 use yii\helpers\Json;
 use yii\web\Controller;

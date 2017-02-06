@@ -3,15 +3,15 @@
  * @author Alexey Samoylov <alexey.samoylov@gmail.com>
  */
 
-namespace nighthtr\eav\widgets;
+namespace adminnalegke\eav\widgets;
 
-use nighthtr\eav\widgets\AttributeHandler;
+use adminnalegke\eav\widgets\AttributeHandler;
 use Yii;
 use yii\helpers\ArrayHelper;
 
 class RadioList extends AttributeHandler
 {
-		const VALUE_HANDLER_CLASS = '\nighthtr\eav\handlers\OptionValueHandler';
+		const VALUE_HANDLER_CLASS = '\adminnalegke\eav\handlers\OptionValueHandler';
 
 		static $order = 15;
 

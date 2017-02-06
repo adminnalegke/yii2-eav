@@ -1,8 +1,8 @@
 <?php
 
-namespace nighthtr\eav\models;
+namespace adminnalegke\eav\models;
 
-use nighthtr\eav\models\Eav;
+use adminnalegke\eav\models\Eav;
 use Yii;
 
 /**

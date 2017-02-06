@@ -1,6 +1,6 @@
 <?php
 
-namespace nighthtr\eav\models;
+namespace adminnalegke\eav\models;
 
 use Yii;
 use yii\helpers\Json;

@@ -1,9 +1,9 @@
 <?php
 
-namespace nighthtr\eav\widgets;
+namespace adminnalegke\eav\widgets;
 
-use nighthtr\eav\models\EavAttribute;
-use nighthtr\eav\EavModel;
+use adminnalegke\eav\models\EavAttribute;
+use adminnalegke\eav\EavModel;
 use yii\helpers\Html;
 
 class ActiveField extends \yii\widgets\ActiveField
@@ -22,7 +22,7 @@ class ActiveField extends \yii\widgets\ActiveField
 				$eavModel = EavModel::create([
 					'entityModel' => $model ,
 					'attribute' => $attribute,
-					'valueClass' => \nighthtr\eav\models\EavAttributeValue::className()
+					'valueClass' => \adminnalegke\eav\models\EavAttributeValue::className()
 				]);
 				$handler = $eavModel->handlers[$attribute];
 				$handler->owner->activeForm = $options['form'];

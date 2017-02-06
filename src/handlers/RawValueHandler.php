@@ -3,11 +3,11 @@
  * @author Alexey Samoylov <alexey.samoylov@gmail.com>
  */
 
-namespace nighthtr\eav\handlers;
+namespace adminnalegke\eav\handlers;
 
 /**
  * Class RawValueHandler
- * @package nighthtr\eav
+ * @package adminnalegke\eav
  */
 class RawValueHandler extends ValueHandler
 {

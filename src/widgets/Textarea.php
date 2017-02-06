@@ -3,9 +3,9 @@
  * @author Alexey Samoylov <alexey.samoylov@gmail.com>
  */
 
-namespace nighthtr\eav\widgets;
+namespace adminnalegke\eav\widgets;
 
-use nighthtr\eav\widgets\AttributeHandler;
+use adminnalegke\eav\widgets\AttributeHandler;
 use Yii;
 
 class Textarea extends AttributeHandler

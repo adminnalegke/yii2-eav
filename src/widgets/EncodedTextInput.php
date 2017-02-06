@@ -3,13 +3,13 @@
  * @author Alexey Samoylov <alexey.samoylov@gmail.com>
  */
 
-namespace nighthtr\eav\widgets;
+namespace adminnalegke\eav\widgets;
 
 use Yii;
 
 class EncodedTextInput extends TextInput
 {
-		const VALUE_HANDLER_CLASS = '\nighthtr\eav\handlers\ArrayValueHandler';
+		const VALUE_HANDLER_CLASS = '\adminnalegke\eav\handlers\ArrayValueHandler';
 
 		static $order = 3;
 

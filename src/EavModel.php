@@ -3,10 +3,10 @@
  * @author Alexey Samoylov <alexey.samoylov@gmail.com>
  */
 
-namespace nighthtr\eav;
+namespace adminnalegke\eav;
 
-use nighthtr\eav\widgets\AttributeHandler;
-use nighthtr\eav\handlers\ValueHandler;
+use adminnalegke\eav\widgets\AttributeHandler;
+use adminnalegke\eav\handlers\ValueHandler;
 use Yii;
 use yii\base\DynamicModel as BaseEavModel;
 use yii\db\ActiveRecord;
@@ -14,7 +14,7 @@ use yii\widgets\ActiveForm;
 
 /**
  * Class EavModel
- * @package nighthtr\eav
+ * @package adminnalegke\eav
  */
 class EavModel extends BaseEavModel
 {

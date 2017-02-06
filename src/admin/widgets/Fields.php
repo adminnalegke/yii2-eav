@@ -1,8 +1,8 @@
 <?php
 
-namespace nighthtr\eav\admin\widgets;
+namespace adminnalegke\eav\admin\widgets;
 
-use nighthtr\eav\models\EavAttribute;
+use adminnalegke\eav\models\EavAttribute;
 use Yii;
 use yii\base\Widget;
 use yii\helpers\ArrayHelper;

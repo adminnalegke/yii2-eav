@@ -1,6 +1,6 @@
 <?php
 
-use nighthtr\eav\handlers\ValueHandler;
+use adminnalegke\eav\handlers\ValueHandler;
 use yii\db\Migration;
 
 class m160501_232516_add_new_field_types extends Migration
@@ -11,7 +11,7 @@ class m160501_232516_add_new_field_types extends Migration
         $this->insert('{{%eav_attribute_type}}', [
             'name' => 'numiric',
             'storeType' => ValueHandler::STORE_TYPE_RAW,
-            'handlerClass' => '\nighthtr\eav\widgets\NumericInput',
+            'handlerClass' => '\adminnalegke\eav\widgets\NumericInput',
         ]);
 
     }

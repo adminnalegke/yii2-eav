@@ -1,13 +1,13 @@
 <?php
 
-namespace nighthtr\eav\models;
+namespace adminnalegke\eav\models;
 
 use Yii;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
 
 /**
- * EavAttributeValueSearch represents the model behind the search form about `nighthtr\eav\models\EavAttributeValue`.
+ * EavAttributeValueSearch represents the model behind the search form about `adminnalegke\eav\models\EavAttributeValue`.
  */
 class EavAttributeValueSearch extends EavAttributeValue
 {

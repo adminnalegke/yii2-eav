@@ -3,16 +3,16 @@
  * @author Alexey Samoylov <alexey.samoylov@gmail.com>
  */
 
-namespace nighthtr\eav;
+namespace adminnalegke\eav;
 
-use nighthtr\eav\models\EavAttribute;
+use adminnalegke\eav\models\EavAttribute;
 use yii\base\Behavior;
 use yii\base\Exception;
 use yii\db\ActiveRecord;
 
 /**
  * Class EavBehavior
- * @package nighthtr\eav
+ * @package adminnalegke\eav
  *
  * @mixin ActiveRecord
  * @property EavModel $eav;

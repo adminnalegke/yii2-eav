@@ -1,11 +1,11 @@
 <?php
 
-namespace nighthtr\eav;
+namespace adminnalegke\eav;
 use Yii;
 
 class Module extends \yii\base\Module
 {
-    public $controllerNamespace = 'nighthtr\eav\controllers';
+    public $controllerNamespace = 'adminnalegke\eav\controllers';
 
     public $defaultRoute = 'default';
 
@@ -13,7 +13,7 @@ class Module extends \yii\base\Module
     {
         parent::init();
 
-        $this->setModule('admin', 'nighthtr\eav\admin\Module');
+        $this->setModule('admin', 'adminnalegke\eav\admin\Module');
         $this->registerTranslations();
     }
 
@@ -33,7 +33,7 @@ class Module extends \yii\base\Module
             Yii::$app->i18n->translations['eav'] =
             [
                 'class' => 'yii\i18n\PhpMessageSource',
-                'basePath' => "@nighthtr/eav/messages",
+                'basePath' => "@adminnalegke/eav/messages",
                 'forceTranslation' => true
             ];
         }

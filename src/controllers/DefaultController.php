@@ -1,6 +1,6 @@
 <?php
 
-namespace nighthtr\eav\controllers;
+namespace adminnalegke\eav\controllers;
 
 use Yii;
 use yii\web\Controller;

@@ -3,12 +3,12 @@
  * @author Alexey Samoylov <alexey.samoylov@gmail.com>
  */
 
-namespace nighthtr\eav\handlers;
+namespace adminnalegke\eav\handlers;
 use yii\helpers\Json;
 
 /**
  * Class RawValueHandler
- * @package nighthtr\eav
+ * @package adminnalegke\eav
  */
 class ArrayValueHandler extends RawValueHandler
 {

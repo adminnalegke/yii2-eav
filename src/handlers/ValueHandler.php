@@ -3,14 +3,14 @@
  * @author Alexey Samoylov <alexey.samoylov@gmail.com>
  */
 
-namespace nighthtr\eav\handlers;
+namespace adminnalegke\eav\handlers;
 
-use nighthtr\eav\widgets\AttributeHandler;
+use adminnalegke\eav\widgets\AttributeHandler;
 use yii\db\ActiveRecord;
 
 /**
  * Class ValueHandler
- * @package nighthtr\eav
+ * @package adminnalegke\eav
  *
  * @property ActiveRecord $valueModel
  * @property string $textValue
