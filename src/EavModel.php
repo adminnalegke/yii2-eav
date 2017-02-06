@@ -7,6 +7,7 @@ namespace adminnalegke\eav;
 
 use adminnalegke\eav\widgets\AttributeHandler;
 use adminnalegke\eav\handlers\ValueHandler;
+use adminnalegke\eav\models\EavAttribute;
 use Yii;
 use yii\base\DynamicModel as BaseEavModel;
 use yii\db\ActiveRecord;
