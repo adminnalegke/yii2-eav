@@ -126,7 +126,7 @@ class MultipleOptionsValueHandler extends ValueHandler
 						$values[] = $model->option->value;
 				}
 
-				return implode(', ', $values);
+				return $values ? implode(', ', $values) : null;
 		}
 
 		public function addRules()
